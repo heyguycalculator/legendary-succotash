@@ -3,18 +3,16 @@
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      "stony_peaks",
-      "stone_beach",
-      "mutated_extreme_hills"
+      "CUSTOM:Cavesurfacedepths"
     ],
     "biomesInDimensionCaves": [],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": "Blocks.DEEPSLATE",
     "fluidBlock": "Blocks.LAVA",
-    "seaLevel": -60,
+    "seaLevel": -54,
     "generateOreVeins": true,
     "generateAquifers": true,
-    "horizontalNoiseSize": 1,
+    "horizontalNoiseSize": 4,
     "verticalNoiseSize": 4,
     "defaultEffects": "overworld",
     "useCustomEffects": true,
@@ -52,8 +50,9 @@
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
+    "onPlayerEntersDimension": "DepthsdimensionPlayerEntersDimension",
     "portalFrame": "Blocks.CHAIN_COMMAND_BLOCK",
-    "portalParticles": "SMOKE_LARGE",
+    "portalParticles": "POOF",
     "portalLuminance": 0,
     "portalSound": "block.portal.ambient",
     "enableIgniter": false,
@@ -67,6 +66,6 @@
     ],
     "texture": "",
     "portalTexture": "minecraft:nether_portal",
-    "enablePortal": true
+    "enablePortal": false
   }
 }

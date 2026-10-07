@@ -50,33 +50,159 @@
       "registry_name": "depthsdimension",
       "metadata": {
         "files": [
-          "src/main/resources/assets/legendary_succotash/models/block/depthsdimension_portal_ns.json",
-          "src/main/resources/assets/legendary_succotash/models/block/depthsdimension_portal_ew.json",
-          "src/main/java/net/mcreator/legendarysuccotash/world/teleporter/DepthsdimensionTeleporter.java",
-          "src/main/java/net/mcreator/legendarysuccotash/block/DepthsdimensionPortalBlock.java",
-          "src/main/resources/assets/legendary_succotash/blockstates/depthsdimension_portal.json",
-          "src/main/java/net/mcreator/legendarysuccotash/world/teleporter/DepthsdimensionPortalShape.java",
           "src/main/resources/data/legendary_succotash/dimension_type/depthsdimension.json",
+          "src/main/java/net/mcreator/legendarysuccotash/world/dimension/DepthsdimensionDimension.java",
           "src/main/resources/data/legendary_succotash/dimension/depthsdimension.json"
+        ]
+      }
+    },
+    {
+      "name": "DepthportalblockEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depthportalblock_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/legendarysuccotash/procedures/DepthportalblockEntityCollidesInTheBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DepthportalblockOnRandomClientDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depthportalblock_on_random_client_display_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/legendarysuccotash/procedures/DepthportalblockOnRandomClientDisplayTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Depthportalblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depthportalblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legendary_succotash/models/block/depthportalblock.json",
+          "src/main/resources/assets/legendary_succotash/models/block/depthportalblock_full.json",
+          "src/main/resources/assets/legendary_succotash/blockstates/depthportalblock.json",
+          "src/main/java/net/mcreator/legendarysuccotash/block/DepthportalblockBlock.java",
+          "src/main/resources/assets/legendary_succotash/models/block/depthportalblock_top.json",
+          "src/main/resources/data/legendary_succotash/loot_table/blocks/depthportalblock.json"
+        ]
+      }
+    },
+    {
+      "name": "DepthsdimensionPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depthsdimension_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/legendarysuccotash/procedures/DepthsdimensionPlayerEntersDimensionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Cavesurfacedepths",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cavesurfacedepths",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legendary_succotash/worldgen/biome/cavesurfacedepths.json"
         ]
       }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "caveabiancedepths",
+      "files": [
+        "freesound_community-dungeon-air-6983"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
   "tag_elements": {
+    "BLOCKS:minecraft:slabs": [
+      "~Depthportalblock@CUSTOM:Depthportalblock"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~Depthportalblock@CUSTOM:Depthportalblock"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~Cavesurfacedepths@CUSTOM:Cavesurfacedepths"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Depthsdimension@Blocks.DEEPSLATE"
     ]
   },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "subtitles.caveabiancedepths": "",
+      "item.legendary_succotash.depthportalblock": "Depths Portal",
+      "biome.legendary_succotash.cavesurfacedepths": "Cavesurfacedepths"
+    }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModBlocks.java",
       "src/main/java/net/mcreator/legendarysuccotash/LegendarySuccotashMod.java",
+      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModSounds.java",
+      "src/main/resources/assets/legendary_succotash/sounds.json",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta"
     ]

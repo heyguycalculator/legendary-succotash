@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "legendary_succotash:block/depthportalblock"
+    },
+    "type=top": {
+      "model": "legendary_succotash:block/depthportalblock_top"
+    },
+    "type=double": {
+      "model": "legendary_succotash:block/depthportalblock_full"
+    }
+  }
+}

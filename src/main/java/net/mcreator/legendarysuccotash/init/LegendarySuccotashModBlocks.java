@@ -9,16 +9,16 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.legendarysuccotash.block.DepthsdimensionPortalBlock;
+import net.mcreator.legendarysuccotash.block.DepthportalblockBlock;
 import net.mcreator.legendarysuccotash.LegendarySuccotashMod;
 
 import java.util.function.Function;
 
 public class LegendarySuccotashModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(LegendarySuccotashMod.MODID);
-	public static final DeferredBlock<Block> DEPTHSDIMENSION_PORTAL;
+	public static final DeferredBlock<Block> DEPTHPORTALBLOCK;
 	static {
-		DEPTHSDIMENSION_PORTAL = register("depthsdimension_portal", DepthsdimensionPortalBlock::new);
+		DEPTHPORTALBLOCK = register("depthportalblock", DepthportalblockBlock::new);
 	}
 
 	// Start of user code block custom blocks
