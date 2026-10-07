@@ -1,5 +1,48 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BomboclatCommand",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomboclat_command",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/legendarysuccotash/procedures/BomboclatCommandProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bomboclat",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomboclat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legendarysuccotash/command/BomboclatCommand.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
