@@ -1,8 +1,0 @@
-{
-  "_fv": 89,
-  "_type": "procedure",
-  "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"world_send_chat\"><field name=\"color\">#ff0000</field><field name=\"bold\">TRUE</field><field name=\"italic\">FALSE</field><field name=\"underlined\">FALSE</field><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">BOMBOCLAT ALERT</field></block></value><next><block type=\"play_sound\"><field name=\"sound\">block.bell.use</field><field name=\"soundcategory\">master</field><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"pitch\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><next><block type=\"execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">/title @a title {\"text\":\"BOMBOCLAT ALERT\",\"color\":\"dark_red\"}</field></block></value><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value></block></next></block></next></block></next></block></xml>",
-    "skipDependencyNullCheck": false
-  }
-}

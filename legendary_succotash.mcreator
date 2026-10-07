@@ -1,59 +1,54 @@
 {
   "mod_elements": [
     {
-      "name": "BomboclatCommand",
-      "type": "procedure",
+      "name": "CAVETOWN",
+      "type": "dimension",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bomboclat_command",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/legendarysuccotash/procedures/BomboclatCommandProcedure.java"
-        ]
-      }
-    },
-    {
-      "name": "Bomboclat",
-      "type": "command",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bomboclat",
+      "registry_name": "depthsdimension",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/legendarysuccotash/command/BomboclatCommand.java"
+          "src/main/java/net/mcreator/legendarysuccotash/world/teleporter/CAVETOWNPortalShape.java",
+          "src/main/resources/assets/legendary_succotash/models/block/depthsdimension_portal_ns.json",
+          "src/main/java/net/mcreator/legendarysuccotash/block/CAVETOWNPortalBlock.java",
+          "src/main/resources/assets/legendary_succotash/models/block/depthsdimension_portal_ew.json",
+          "src/main/java/net/mcreator/legendarysuccotash/world/teleporter/CAVETOWNTeleporter.java",
+          "src/main/resources/assets/legendary_succotash/blockstates/depthsdimension_portal.json",
+          "src/main/resources/data/legendary_succotash/dimension_type/depthsdimension.json",
+          "src/main/resources/data/legendary_succotash/dimension/depthsdimension.json"
         ]
       }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
-  "tag_elements": {},
+  "sound_elements": [
+    {
+      "name": "caveportalambiance",
+      "files": [
+        "freesound_community-dungeon-air-6983"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CAVETOWN@Blocks.DEEPSLATE"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "subtitles.caveportalambiance": ""
+    }
   },
   "metadata": {
     "files": [
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModBlocks.java",
       "src/main/java/net/mcreator/legendarysuccotash/LegendarySuccotashMod.java",
+      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModSounds.java",
+      "src/main/resources/assets/legendary_succotash/sounds.json",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta"
     ]
   },
