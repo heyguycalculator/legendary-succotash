@@ -20,7 +20,10 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.legendarysuccotash.init.LegendarySuccotashModTabs;
 import net.mcreator.legendarysuccotash.init.LegendarySuccotashModSounds;
+import net.mcreator.legendarysuccotash.init.LegendarySuccotashModItems;
+import net.mcreator.legendarysuccotash.init.LegendarySuccotashModEntities;
 import net.mcreator.legendarysuccotash.init.LegendarySuccotashModBlocks;
 
 import javax.annotation.Nullable;
@@ -51,6 +54,9 @@ public class LegendarySuccotashMod {
 		modEventBus.addListener(this::registerNetworking);
 		LegendarySuccotashModSounds.REGISTRY.register(modEventBus);
 		LegendarySuccotashModBlocks.REGISTRY.register(modEventBus);
+		LegendarySuccotashModItems.REGISTRY.register(modEventBus);
+		LegendarySuccotashModEntities.REGISTRY.register(modEventBus);
+		LegendarySuccotashModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

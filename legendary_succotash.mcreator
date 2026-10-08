@@ -162,6 +162,22 @@
           "src/main/resources/data/legendary_succotash/worldgen/biome/cavesurfacedepths.json"
         ]
       }
+    },
+    {
+      "name": "DeepSpider",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legendarysuccotash/entity/DeepSpiderEntity.java",
+          "src/main/resources/assets/legendary_succotash/items/deep_spider_spawn_egg.json",
+          "src/main/resources/assets/legendary_succotash/models/item/deep_spider_spawn_egg.json",
+          "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/deep_spider_biome_modifier.json",
+          "src/main/java/net/mcreator/legendarysuccotash/client/renderer/DeepSpiderRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -203,17 +219,24 @@
       "subtitles.caveabiancedepths": "",
       "item.legendary_succotash.depthportalblock": "Depths Portal",
       "biome.legendary_succotash.cavesurfacedepths": "Cavesurfacedepths",
-      "subtitles.cavenoisesdepths": "Something moves in the distance"
+      "subtitles.cavenoisesdepths": "Something moves in the distance",
+      "item.legendary_succotash.deep_spider_spawn_egg": "Deep Spider Spawn Egg",
+      "entity.legendary_succotash.deep_spider": "Deep Spider"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModBlocks.java",
-      "src/main/java/net/mcreator/legendarysuccotash/LegendarySuccotashMod.java",
-      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModSounds.java",
+      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModItems.java",
+      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModEntityRenderers.java",
+      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModEntities.java",
       "src/main/resources/assets/legendary_succotash/sounds.json",
+      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModSounds.java",
+      "src/main/java/net/mcreator/legendarysuccotash/LegendarySuccotashMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModModels.java"
     ]
   },
   "foldersRoot": {
