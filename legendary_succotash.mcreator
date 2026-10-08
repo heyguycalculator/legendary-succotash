@@ -159,6 +159,8 @@
       "registry_name": "cavesurfacedepths",
       "metadata": {
         "files": [
+          "src/main/resources/data/legendary_succotash/worldgen/configured_feature/cavesurfacedepths_tree.json",
+          "src/main/resources/data/legendary_succotash/worldgen/placed_feature/cavesurfacedepths_tree.json",
           "src/main/resources/data/legendary_succotash/worldgen/biome/cavesurfacedepths.json"
         ]
       }
@@ -176,6 +178,32 @@
           "src/main/java/net/mcreator/legendarysuccotash/client/renderer/DeepSpiderRenderer.java",
           "src/main/java/net/mcreator/legendarysuccotash/entity/DeepSpiderEntity.java",
           "src/main/resources/assets/legendary_succotash/models/item/deep_spider_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Cavedeepdepths",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cavedeepdepths",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legendary_succotash/worldgen/biome/cavedeepdepths.json"
+        ]
+      }
+    },
+    {
+      "name": "Cavecollumn",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cavecollumn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legendary_succotash/worldgen/configured_feature/cavecollumn.json",
+          "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/cavecollumn_biome_modifier.json",
+          "src/main/resources/data/legendary_succotash/worldgen/placed_feature/cavecollumn.json"
         ]
       }
     }
@@ -206,14 +234,15 @@
     "BLOCKS:minecraft:replaceable": [
       "~Depthportalblock@CUSTOM:Depthportalblock"
     ],
+    "ENTITIES:minecraft:arthropod": [
+      "~DeepSpider@CUSTOM:DeepSpider"
+    ],
     "BIOMES:minecraft:has_structure/mineshaft": [
-      "~Cavesurfacedepths@CUSTOM:Cavesurfacedepths"
+      "~Cavesurfacedepths@CUSTOM:Cavesurfacedepths",
+      "~Cavedeepdepths@CUSTOM:Cavedeepdepths"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Depthsdimension@Blocks.DEEPSLATE"
-    ],
-    "ENTITIES:minecraft:arthropod": [
-      "~DeepSpider@CUSTOM:DeepSpider"
     ]
   },
   "tab_element_order": {},
@@ -224,7 +253,8 @@
       "biome.legendary_succotash.cavesurfacedepths": "Cavesurfacedepths",
       "subtitles.cavenoisesdepths": "Something moves in the distance",
       "item.legendary_succotash.deep_spider_spawn_egg": "Deep Spider Spawn Egg",
-      "entity.legendary_succotash.deep_spider": "Deep Spider"
+      "entity.legendary_succotash.deep_spider": "Deep Spider",
+      "biome.legendary_succotash.cavedeepdepths": "Cavedeepdepths"
     }
   },
   "metadata": {
@@ -233,13 +263,14 @@
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModItems.java",
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModEntities.java",
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModEntityRenderers.java",
-      "src/main/java/net/mcreator/legendarysuccotash/LegendarySuccotashMod.java",
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModSounds.java",
-      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModTabs.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModModels.java",
-      "src/main/resources/assets/legendary_succotash/sounds.json",
+      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/legendarysuccotash/LegendarySuccotashMod.java",
+      "src/main/resources/assets/legendary_succotash/sounds.json",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {

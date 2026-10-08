@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "legendary_succotash:cavesurfacedepths",
+  "features": "legendary_succotash:cavecollumn",
+  "step": "top_layer_modification"
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "legendary_succotash:cavesurfacedepths"
+    "legendary_succotash:cavesurfacedepths",
+    "legendary_succotash:cavedeepdepths"
   ]
 }

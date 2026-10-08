@@ -5,7 +5,9 @@
     "biomesInDimension": [
       "CUSTOM:Cavesurfacedepths"
     ],
-    "biomesInDimensionCaves": [],
+    "biomesInDimensionCaves": [
+      "CUSTOM:Cavedeepdepths"
+    ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": "Blocks.DEEPSLATE",
     "fluidBlock": "Blocks.LAVA",
