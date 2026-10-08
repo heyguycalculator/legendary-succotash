@@ -28,6 +28,7 @@
         "probability": 0.007
       }
     ],
+    "minecraft:visual/fog_color": -16777216,
     "minecraft:visual/water_fog_color": 329011
   },
   "spawners": {
@@ -52,7 +53,10 @@
       "minecraft:lake_lava_underground"
     ],
     [],
-    [],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
     [],
     [],
     [
@@ -72,7 +76,8 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "minecraft:ore_gold_extra"
     ],
     [],
     [],

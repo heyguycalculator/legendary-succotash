@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "TOP_LAYER_MODIFICATION",
+    "restrictionBiomes": [
+      "CUSTOM:Cavesurfacedepths"
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"configured_feature_reference\"><field name=\"feature\">underwater_magma</field></block></value></block></xml>"
+  }
+}

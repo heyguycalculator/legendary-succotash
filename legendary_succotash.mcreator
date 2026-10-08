@@ -162,6 +162,45 @@
           "src/main/resources/data/legendary_succotash/worldgen/biome/cavesurfacedepths.json"
         ]
       }
+    },
+    {
+      "name": "Cavedeepdepths",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cavedeepdepths",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legendary_succotash/worldgen/biome/cavedeepdepths.json"
+        ]
+      }
+    },
+    {
+      "name": "Spire",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/spire_biome_modifier.json",
+          "src/main/resources/data/legendary_succotash/worldgen/placed_feature/spire.json",
+          "src/main/resources/data/legendary_succotash/worldgen/configured_feature/spire.json"
+        ]
+      }
+    },
+    {
+      "name": "Magmadeatrure",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmadeatrure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legendary_succotash/worldgen/placed_feature/magmadeatrure.json",
+          "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/magmadeatrure_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -191,7 +230,8 @@
       "~Depthportalblock@CUSTOM:Depthportalblock"
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
-      "~Cavesurfacedepths@CUSTOM:Cavesurfacedepths"
+      "~Cavesurfacedepths@CUSTOM:Cavesurfacedepths",
+      "~Cavedeepdepths@CUSTOM:Cavedeepdepths"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Depthsdimension@Blocks.DEEPSLATE"
@@ -203,7 +243,8 @@
       "subtitles.caveabiancedepths": "",
       "item.legendary_succotash.depthportalblock": "Depths Portal",
       "biome.legendary_succotash.cavesurfacedepths": "Cavesurfacedepths",
-      "subtitles.cavenoisesdepths": "Something moves in the distance"
+      "subtitles.cavenoisesdepths": "Something moves in the distance",
+      "biome.legendary_succotash.cavedeepdepths": "Cavesdeepdepths"
     }
   },
   "metadata": {
@@ -213,7 +254,8 @@
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModSounds.java",
       "src/main/resources/assets/legendary_succotash/sounds.json",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {
