@@ -173,6 +173,14 @@
       ],
       "category": "block",
       "subtitle": ""
+    },
+    {
+      "name": "cavenoisesdepths",
+      "files": [
+        "freesound_community-sleepingcavemonster-23661"
+      ],
+      "category": "neutral",
+      "subtitle": "Something moves in the distance"
     }
   ],
   "tag_elements": {
@@ -194,7 +202,8 @@
     "en_us": {
       "subtitles.caveabiancedepths": "",
       "item.legendary_succotash.depthportalblock": "Depths Portal",
-      "biome.legendary_succotash.cavesurfacedepths": "Cavesurfacedepths"
+      "biome.legendary_succotash.cavesurfacedepths": "Cavesurfacedepths",
+      "subtitles.cavenoisesdepths": "Something moves in the distance"
     }
   },
   "metadata": {

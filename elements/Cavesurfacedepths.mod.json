@@ -14,8 +14,8 @@
       "value": -8888014,
       "falpha": 0.0
     },
-    "ambientSound": "CUSTOM:caveabiancedepths",
-    "additionsSound": "",
+    "ambientSound": "",
+    "additionsSound": "CUSTOM:cavenoisesdepths",
     "music": "",
     "moodSound": "ambient.cave",
     "moodSoundDelay": 2000,

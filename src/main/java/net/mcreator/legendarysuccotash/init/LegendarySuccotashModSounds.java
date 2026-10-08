@@ -15,4 +15,5 @@ import net.mcreator.legendarysuccotash.LegendarySuccotashMod;
 public class LegendarySuccotashModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(Registries.SOUND_EVENT, LegendarySuccotashMod.MODID);
 	public static final DeferredHolder<SoundEvent, SoundEvent> CAVEABIANCEDEPTHS = REGISTRY.register("caveabiancedepths", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("legendary_succotash", "caveabiancedepths")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> CAVENOISESDEPTHS = REGISTRY.register("cavenoisesdepths", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("legendary_succotash", "cavenoisesdepths")));
 }
