@@ -252,6 +252,7 @@
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModBlocks.java",
       "src/main/java/net/mcreator/legendarysuccotash/LegendarySuccotashMod.java",
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModSounds.java",
+      "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModModels.java",
       "src/main/resources/assets/legendary_succotash/sounds.json",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
