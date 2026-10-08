@@ -30,18 +30,19 @@ public class DeepSpiderEntity extends Spider {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
+		refreshDimensions();
 	}
 
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, true) {
 			@Override
 			protected boolean canPerformAttack(LivingEntity entity) {
 				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < (this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth()) && this.mob.getSensing().hasLineOfSight(entity);
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.6));
 		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
@@ -66,6 +67,11 @@ public class DeepSpiderEntity extends Spider {
 	}
 
 	@Override
+	public EntityDimensions getDefaultDimensions(Pose pose) {
+		return super.getDefaultDimensions(pose).scale(2f);
+	}
+
+	@Override
 	public boolean checkSpawnRules(LevelAccessor level, EntitySpawnReason reason) {
 		return this.level().dimension() == Level.OVERWORLD ? super.checkSpawnRules(level, reason) : true;
 	}
@@ -82,7 +88,7 @@ public class DeepSpiderEntity extends Spider {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-		builder = builder.add(Attributes.STEP_HEIGHT, 0.6);
+		builder = builder.add(Attributes.STEP_HEIGHT, 0.2);
 		return builder;
 	}
 }

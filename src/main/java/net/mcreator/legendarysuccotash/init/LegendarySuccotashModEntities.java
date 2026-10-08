@@ -26,7 +26,7 @@ public class LegendarySuccotashModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<DeepSpiderEntity>> DEEP_SPIDER = register("deep_spider",
 			EntityType.Builder.<DeepSpiderEntity>of(DeepSpiderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.notInPeaceful().sized(0.4f, 1.8f));
+					.notInPeaceful().sized(1.8f, 0.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

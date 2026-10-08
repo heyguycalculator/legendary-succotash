@@ -20,11 +20,13 @@ import net.mcreator.legendarysuccotash.client.model.Modeldeep_spider;
 
 import java.util.Map;
 
+import com.mojang.blaze3d.vertex.PoseStack;
+
 public class DeepSpiderRenderer extends MobRenderer<DeepSpiderEntity, LivingEntityRenderState, Modeldeep_spider> {
 	private final Identifier entityTexture = Identifier.parse("legendary_succotash:textures/entities/deepspider.png");
 
 	public DeepSpiderRenderer(EntityRendererProvider.Context context) {
-		super(context, new AnimatedModel(context.bakeLayer(Modeldeep_spider.LAYER_LOCATION)), 0.5f);
+		super(context, new AnimatedModel(context.bakeLayer(Modeldeep_spider.LAYER_LOCATION)), 1f);
 	}
 
 	@Override
@@ -40,6 +42,11 @@ public class DeepSpiderRenderer extends MobRenderer<DeepSpiderEntity, LivingEnti
 	@Override
 	public Identifier getTextureLocation(LivingEntityRenderState state) {
 		return entityTexture;
+	}
+
+	@Override
+	protected void scale(LivingEntityRenderState state, PoseStack poseStack) {
+		poseStack.scale(2f, 2f, 2f);
 	}
 
 	private static final class AnimatedModel extends Modeldeep_spider {
@@ -64,8 +71,8 @@ public class DeepSpiderRenderer extends MobRenderer<DeepSpiderEntity, LivingEnti
 		public void setupAnim(LivingEntityRenderState state) {
 			this.root().getAllParts().forEach(ModelPart::resetPose);
 			DeepSpiderEntity entity = state.getRenderData(ENTITY_KEY);
-			this.keyframeAnimation0.apply(entity.animationState0, state.ageInTicks, 1f);
-			this.keyframeAnimation1.applyWalk(state.walkAnimationPos, state.walkAnimationSpeed, 1f, 1f);
+			this.keyframeAnimation0.apply(entity.animationState0, state.ageInTicks, 1.5f);
+			this.keyframeAnimation1.applyWalk(state.walkAnimationPos, state.walkAnimationSpeed, 1.5f, 2f);
 			super.setupAnim(state);
 		}
 	}
