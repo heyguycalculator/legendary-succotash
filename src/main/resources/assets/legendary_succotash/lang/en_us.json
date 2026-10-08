@@ -5,5 +5,21 @@
   "subtitles.cavenoisesdepths": "Something moves in the distance",
   "item.legendary_succotash.deep_spider_spawn_egg": "Deep Spider Spawn Egg",
   "entity.legendary_succotash.deep_spider": "Deep Spider",
-  "biome.legendary_succotash.cavedeepdepths": "Cavedeepdepths"
+  "biome.legendary_succotash.cavedeepdepths": "Cavedeepdepths",
+  "block.legendary_succotash.banner.spiderbanner.orange": "Orange Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.brown": "Brown Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.gray": "Gray Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.light_gray": "Light Gray Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.cyan": "Cyan Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.light_blue": "Light Blue Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.magenta": "Magenta Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.purple": "Purple Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.black": "Black Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.red": "Red Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.yellow": "Yellow Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.white": "White Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.lime": "Lime Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.blue": "Blue Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.green": "Green Spiderbanner",
+  "block.legendary_succotash.banner.spiderbanner.pink": "Pink Spiderbanner"
 }

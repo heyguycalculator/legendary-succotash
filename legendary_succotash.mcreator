@@ -173,11 +173,11 @@
       "registry_name": "deep_spider",
       "metadata": {
         "files": [
-          "src/main/resources/assets/legendary_succotash/items/deep_spider_spawn_egg.json",
-          "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/deep_spider_biome_modifier.json",
+          "src/main/resources/assets/legendary_succotash/models/item/deep_spider_spawn_egg.json",
           "src/main/java/net/mcreator/legendarysuccotash/client/renderer/DeepSpiderRenderer.java",
+          "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/deep_spider_biome_modifier.json",
           "src/main/java/net/mcreator/legendarysuccotash/entity/DeepSpiderEntity.java",
-          "src/main/resources/assets/legendary_succotash/models/item/deep_spider_spawn_egg.json"
+          "src/main/resources/assets/legendary_succotash/items/deep_spider_spawn_egg.json"
         ]
       }
     },
@@ -194,16 +194,14 @@
       }
     },
     {
-      "name": "Cavecollumn",
-      "type": "feature",
+      "name": "Spiderbanner",
+      "type": "bannerpattern",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cavecollumn",
+      "registry_name": "spiderbanner",
       "metadata": {
         "files": [
-          "src/main/resources/data/legendary_succotash/worldgen/configured_feature/cavecollumn.json",
-          "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/cavecollumn_biome_modifier.json",
-          "src/main/resources/data/legendary_succotash/worldgen/placed_feature/cavecollumn.json"
+          "src/main/resources/data/legendary_succotash/banner_pattern/spiderbanner.json"
         ]
       }
     }
@@ -234,12 +232,12 @@
     "BLOCKS:minecraft:replaceable": [
       "~Depthportalblock@CUSTOM:Depthportalblock"
     ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~Cavedeepdepths@CUSTOM:Cavedeepdepths",
+      "~Cavesurfacedepths@CUSTOM:Cavesurfacedepths"
+    ],
     "ENTITIES:minecraft:arthropod": [
       "~DeepSpider@CUSTOM:DeepSpider"
-    ],
-    "BIOMES:minecraft:has_structure/mineshaft": [
-      "~Cavesurfacedepths@CUSTOM:Cavesurfacedepths",
-      "~Cavedeepdepths@CUSTOM:Cavedeepdepths"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Depthsdimension@Blocks.DEEPSLATE"
@@ -254,7 +252,23 @@
       "subtitles.cavenoisesdepths": "Something moves in the distance",
       "item.legendary_succotash.deep_spider_spawn_egg": "Deep Spider Spawn Egg",
       "entity.legendary_succotash.deep_spider": "Deep Spider",
-      "biome.legendary_succotash.cavedeepdepths": "Cavedeepdepths"
+      "biome.legendary_succotash.cavedeepdepths": "Cavedeepdepths",
+      "block.legendary_succotash.banner.spiderbanner.orange": "Orange Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.brown": "Brown Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.gray": "Gray Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.light_gray": "Light Gray Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.cyan": "Cyan Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.light_blue": "Light Blue Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.magenta": "Magenta Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.purple": "Purple Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.black": "Black Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.red": "Red Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.yellow": "Yellow Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.white": "White Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.lime": "Lime Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.blue": "Blue Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.green": "Green Spiderbanner",
+      "block.legendary_succotash.banner.spiderbanner.pink": "Pink Spiderbanner"
     }
   },
   "metadata": {
@@ -269,8 +283,7 @@
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/legendarysuccotash/LegendarySuccotashMod.java",
-      "src/main/resources/assets/legendary_succotash/sounds.json",
-      "src/main/resources/META-INF/accesstransformer.cfg"
+      "src/main/resources/assets/legendary_succotash/sounds.json"
     ]
   },
   "foldersRoot": {

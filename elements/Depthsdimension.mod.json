@@ -32,7 +32,7 @@
     "doesWaterVaporize": false,
     "hasFixedTime": false,
     "fixedTimeValue": 0,
-    "coordinateScale": 1.0,
+    "coordinateScale": 0.2,
     "infiniburnTag": "minecraft:infiniburn_overworld",
     "enableCustomSkyboxTextures": false,
     "skyboxTextureUp": "",
