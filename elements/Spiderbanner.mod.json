@@ -2,9 +2,9 @@
   "_fv": 89,
   "_type": "bannerpattern",
   "definition": {
-    "texture": "big-spider-face_1",
+    "texture": "banner_texture_template",
     "shieldTexture": "big-spider-face_1",
     "name": "Spiderbanner",
-    "requireItem": true
+    "requireItem": false
   }
 }

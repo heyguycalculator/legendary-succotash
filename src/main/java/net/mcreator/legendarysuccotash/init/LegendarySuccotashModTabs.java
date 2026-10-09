@@ -22,6 +22,8 @@ public class LegendarySuccotashModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(LegendarySuccotashModItems.DEEP_SPIDER_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(LegendarySuccotashModItems.SPIDERBANNERPATTERN.get());
 		}
 	}
 }
