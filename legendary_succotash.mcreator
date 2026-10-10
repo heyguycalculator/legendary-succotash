@@ -28,7 +28,8 @@
         "files": [
           "src/main/java/net/mcreator/legendarysuccotash/procedures/BomboclatCommandProcedure.java"
         ]
-      }
+      },
+      "path": "~/bomboclat"
     },
     {
       "name": "Bomboclat",
@@ -40,7 +41,8 @@
         "files": [
           "src/main/java/net/mcreator/legendarysuccotash/command/BomboclatCommand.java"
         ]
-      }
+      },
+      "path": "~/bomboclat"
     },
     {
       "name": "Depthsdimension",
@@ -54,7 +56,8 @@
           "src/main/java/net/mcreator/legendarysuccotash/world/dimension/DepthsdimensionDimension.java",
           "src/main/resources/data/legendary_succotash/dimension/depthsdimension.json"
         ]
-      }
+      },
+      "path": "~/depthsdimensionandportalhandler"
     },
     {
       "name": "DepthportalblockEntityCollidesInTheBlock",
@@ -72,7 +75,8 @@
         "files": [
           "src/main/java/net/mcreator/legendarysuccotash/procedures/DepthportalblockEntityCollidesInTheBlockProcedure.java"
         ]
-      }
+      },
+      "path": "~/depthsdimensionandportalhandler"
     },
     {
       "name": "DepthportalblockOnRandomClientDisplayTick",
@@ -102,7 +106,8 @@
         "files": [
           "src/main/java/net/mcreator/legendarysuccotash/procedures/DepthportalblockOnRandomClientDisplayTickProcedure.java"
         ]
-      }
+      },
+      "path": "~/depthsdimensionandportalhandler"
     },
     {
       "name": "Depthportalblock",
@@ -119,7 +124,8 @@
           "src/main/resources/assets/legendary_succotash/models/block/depthportalblock_top.json",
           "src/main/resources/data/legendary_succotash/loot_table/blocks/depthportalblock.json"
         ]
-      }
+      },
+      "path": "~/depthsdimensionandportalhandler"
     },
     {
       "name": "DepthsdimensionPlayerEntersDimension",
@@ -149,7 +155,8 @@
         "files": [
           "src/main/java/net/mcreator/legendarysuccotash/procedures/DepthsdimensionPlayerEntersDimensionProcedure.java"
         ]
-      }
+      },
+      "path": "~/depthsdimensionandportalhandler"
     },
     {
       "name": "Cavesurfacedepths",
@@ -163,7 +170,8 @@
           "src/main/resources/data/legendary_succotash/worldgen/placed_feature/cavesurfacedepths_tree.json",
           "src/main/resources/data/legendary_succotash/worldgen/biome/cavesurfacedepths.json"
         ]
-      }
+      },
+      "path": "~/biomes"
     },
     {
       "name": "DeepSpider",
@@ -179,7 +187,8 @@
           "src/main/java/net/mcreator/legendarysuccotash/entity/DeepSpiderEntity.java",
           "src/main/resources/assets/legendary_succotash/items/deep_spider_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/deepspider"
     },
     {
       "name": "Cavedeepdepths",
@@ -191,7 +200,8 @@
         "files": [
           "src/main/resources/data/legendary_succotash/worldgen/biome/cavedeepdepths.json"
         ]
-      }
+      },
+      "path": "~/biomes"
     },
     {
       "name": "Spiderbanner",
@@ -203,7 +213,8 @@
         "files": [
           "src/main/resources/data/legendary_succotash/banner_pattern/spiderbanner.json"
         ]
-      }
+      },
+      "path": "~/spiderbanner"
     },
     {
       "name": "Spiderbannerpattern",
@@ -217,7 +228,8 @@
           "src/main/resources/assets/legendary_succotash/models/item/spiderbannerpattern.json",
           "src/main/java/net/mcreator/legendarysuccotash/item/SpiderbannerpatternItem.java"
         ]
-      }
+      },
+      "path": "~/spiderbanner"
     },
     {
       "name": "Depthslate",
@@ -234,7 +246,8 @@
           "src/main/resources/assets/legendary_succotash/blockstates/depthslate.json",
           "src/main/resources/assets/legendary_succotash/items/depthslate.json"
         ]
-      }
+      },
+      "path": "~/biomes"
     },
     {
       "name": "Depthslatediamondore",
@@ -251,7 +264,8 @@
           "src/main/resources/assets/legendary_succotash/items/depthslatediamondore.json",
           "src/main/resources/assets/legendary_succotash/models/block/depthslatediamondore.json"
         ]
-      }
+      },
+      "path": "~/biomes/ores/depthslatediamonds"
     },
     {
       "name": "DepthslateDiamondOreGeneration",
@@ -265,7 +279,8 @@
           "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/depthslate_diamond_ore_generation_biome_modifier.json",
           "src/main/resources/data/legendary_succotash/worldgen/placed_feature/depthslate_diamond_ore_generation.json"
         ]
-      }
+      },
+      "path": "~/biomes/ores/depthslatediamonds"
     },
     {
       "name": "Blockscompresseddetrius",
@@ -277,7 +292,8 @@
         "files": [
           "src/main/resources/data/legendary_succotash/loot_table/blocks/compressed_detrius.json"
         ]
-      }
+      },
+      "path": "~/biomes/ores/detrius"
     },
     {
       "name": "CompressedDetrius",
@@ -293,7 +309,8 @@
           "src/main/resources/assets/legendary_succotash/blockstates/compressed_detrius.json",
           "src/main/java/net/mcreator/legendarysuccotash/block/CompressedDetriusBlock.java"
         ]
-      }
+      },
+      "path": "~/biomes/ores/detrius"
     },
     {
       "name": "DetriusOreGeneration",
@@ -307,7 +324,8 @@
           "src/main/resources/data/legendary_succotash/worldgen/placed_feature/detrius_ore_generation.json",
           "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/detrius_ore_generation_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/biomes/ores/detrius"
     },
     {
       "name": "Darkling",
@@ -323,7 +341,8 @@
           "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/darkling_biome_modifier.json",
           "src/main/resources/assets/legendary_succotash/models/item/darkling_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/darkling"
     },
     {
       "name": "BreakLightEmmitingBlocks",
@@ -345,7 +364,8 @@
         "files": [
           "src/main/java/net/mcreator/legendarysuccotash/procedures/BreakLightEmmitingBlocksProcedure.java"
         ]
-      }
+      },
+      "path": "~/darkling"
     }
   ],
   "variable_elements": [],
@@ -457,7 +477,46 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "darkling",
+        "children": []
+      },
+      {
+        "name": "depthsdimensionandportalhandler",
+        "children": []
+      },
+      {
+        "name": "biomes",
+        "children": [
+          {
+            "name": "ores",
+            "children": [
+              {
+                "name": "depthslatediamonds",
+                "children": []
+              },
+              {
+                "name": "detrius",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "deepspider",
+        "children": []
+      },
+      {
+        "name": "spiderbanner",
+        "children": []
+      },
+      {
+        "name": "bomboclat",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "legendary_succotash",
