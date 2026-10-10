@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "legendary_succotash:cavesurfacedepths",
+    "legendary_succotash:cavedeepdepths"
+  ],
+  "features": "legendary_succotash:detrius_ore_generation",
+  "step": "underground_ores"
+}

@@ -50,7 +50,7 @@
     "piglinSafe": false,
     "hasRaids": false,
     "minMonsterSpawnLightLimit": 0,
-    "maxMonsterSpawnLightLimit": 15,
+    "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
     "onPlayerEntersDimension": "DepthsdimensionPlayerEntersDimension",
     "portalFrame": "Blocks.CHAIN_COMMAND_BLOCK",

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "legendary_succotash:block/compressed_trash_16x16",
+    "particle": "legendary_succotash:block/compressed_trash_16x16"
+  }
+}

@@ -266,6 +266,48 @@
           "src/main/resources/data/legendary_succotash/worldgen/placed_feature/depthslate_diamond_ore_generation.json"
         ]
       }
+    },
+    {
+      "name": "Blockscompresseddetrius",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockscompresseddetrius",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legendary_succotash/loot_table/blocks/compressed_detrius.json"
+        ]
+      }
+    },
+    {
+      "name": "CompressedDetrius",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_detrius",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legendary_succotash/models/item/compressed_detrius.json",
+          "src/main/resources/assets/legendary_succotash/items/compressed_detrius.json",
+          "src/main/resources/assets/legendary_succotash/models/block/compressed_detrius.json",
+          "src/main/resources/assets/legendary_succotash/blockstates/compressed_detrius.json",
+          "src/main/java/net/mcreator/legendarysuccotash/block/CompressedDetriusBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DetriusOreGeneration",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detrius_ore_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legendary_succotash/worldgen/configured_feature/detrius_ore_generation.json",
+          "src/main/resources/data/legendary_succotash/worldgen/placed_feature/detrius_ore_generation.json",
+          "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/detrius_ore_generation_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -314,12 +356,15 @@
     "ENTITIES:minecraft:arthropod": [
       "~DeepSpider@CUSTOM:DeepSpider"
     ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~Depthslatediamondore@CUSTOM:Depthslatediamondore"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Depthsdimension@CUSTOM:Depthslate",
       "~Depthsdimension@Blocks.DEEPSLATE"
     ],
-    "BLOCKS:minecraft:needs_diamond_tool": [
-      "~Depthslatediamondore@CUSTOM:Depthslatediamondore"
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CompressedDetrius@CUSTOM:CompressedDetrius"
     ]
   },
   "tab_element_order": {},
@@ -350,7 +395,8 @@
       "block.legendary_succotash.banner.spiderbanner.pink": "Pink Spiderbanner",
       "item.legendary_succotash.spiderbannerpattern": "Spider Banner Pattern",
       "item.legendary_succotash.depthslate": "Depthslate",
-      "item.legendary_succotash.depthslatediamondore": "Depthslate Diamond Ore"
+      "item.legendary_succotash.depthslatediamondore": "Depthslate Diamond Ore",
+      "item.legendary_succotash.compressed_detrius": "Compressed Detrius"
     }
   },
   "metadata": {

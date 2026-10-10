@@ -23,11 +23,13 @@ public class LegendarySuccotashModItems {
 	public static final DeferredItem<Item> SPIDERBANNERPATTERN;
 	public static final DeferredItem<Item> DEPTHSLATE;
 	public static final DeferredItem<Item> DEPTHSLATEDIAMONDORE;
+	public static final DeferredItem<Item> COMPRESSED_DETRIUS;
 	static {
 		DEEP_SPIDER_SPAWN_EGG = register("deep_spider_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(LegendarySuccotashModEntities.DEEP_SPIDER.get())));
 		SPIDERBANNERPATTERN = register("spiderbannerpattern", SpiderbannerpatternItem::new);
 		DEPTHSLATE = block(LegendarySuccotashModBlocks.DEPTHSLATE);
 		DEPTHSLATEDIAMONDORE = block(LegendarySuccotashModBlocks.DEPTHSLATEDIAMONDORE);
+		COMPRESSED_DETRIUS = block(LegendarySuccotashModBlocks.COMPRESSED_DETRIUS);
 	}
 
 	// Start of user code block custom items
