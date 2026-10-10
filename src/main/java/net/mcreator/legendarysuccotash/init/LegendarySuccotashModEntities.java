@@ -18,6 +18,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.legendarysuccotash.entity.DeepSpiderEntity;
+import net.mcreator.legendarysuccotash.entity.DarklingEntity;
 import net.mcreator.legendarysuccotash.LegendarySuccotashMod;
 
 @EventBusSubscriber
@@ -27,6 +28,10 @@ public class LegendarySuccotashModEntities {
 			EntityType.Builder.<DeepSpiderEntity>of(DeepSpiderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.notInPeaceful().sized(1.8f, 0.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<DarklingEntity>> DARKLING = register("darkling",
+			EntityType.Builder.<DarklingEntity>of(DarklingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.ridingOffset(-0.6f).notInPeaceful().sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -37,10 +42,12 @@ public class LegendarySuccotashModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		DeepSpiderEntity.init(event);
+		DarklingEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(DEEP_SPIDER.get(), DeepSpiderEntity.createAttributes().build());
+		event.put(DARKLING.get(), DarklingEntity.createAttributes().build());
 	}
 }

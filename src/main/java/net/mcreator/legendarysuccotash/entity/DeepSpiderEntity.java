@@ -6,7 +6,6 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.monster.spider.Spider;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -25,7 +24,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.legendarysuccotash.init.LegendarySuccotashModEntities;
 
-public class DeepSpiderEntity extends Spider {
+public class DeepSpiderEntity extends Monster {
 	public final AnimationState animationState0 = new AnimationState();
 
 	public DeepSpiderEntity(EntityType<DeepSpiderEntity> type, Level world) {
@@ -99,7 +98,7 @@ public class DeepSpiderEntity extends Spider {
 		builder = builder.add(Attributes.MAX_HEALTH, 20);
 		builder = builder.add(Attributes.ARMOR, 0.8);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 6);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 10);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 32);
 		builder = builder.add(Attributes.STEP_HEIGHT, 0.2);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.5);
 		return builder;

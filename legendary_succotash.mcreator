@@ -308,6 +308,44 @@
           "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/detrius_ore_generation_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Darkling",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legendary_succotash/items/darkling_spawn_egg.json",
+          "src/main/java/net/mcreator/legendarysuccotash/entity/DarklingEntity.java",
+          "src/main/java/net/mcreator/legendarysuccotash/client/renderer/DarklingRenderer.java",
+          "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/darkling_biome_modifier.json",
+          "src/main/resources/assets/legendary_succotash/models/item/darkling_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "BreakLightEmmitingBlocks",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_light_emmiting_blocks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/legendarysuccotash/procedures/BreakLightEmmitingBlocksProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -353,9 +391,6 @@
       "~Depthslate@CUSTOM:Depthslate",
       "~Depthslatediamondore@CUSTOM:Depthslatediamondore"
     ],
-    "ENTITIES:minecraft:arthropod": [
-      "~DeepSpider@CUSTOM:DeepSpider"
-    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~Depthslatediamondore@CUSTOM:Depthslatediamondore"
     ],
@@ -365,6 +400,9 @@
     ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~CompressedDetrius@CUSTOM:CompressedDetrius"
+    ],
+    "ENTITIES:minecraft:arthropod": [
+      "~DeepSpider@CUSTOM:DeepSpider"
     ]
   },
   "tab_element_order": {},
@@ -396,7 +434,9 @@
       "item.legendary_succotash.spiderbannerpattern": "Spider Banner Pattern",
       "item.legendary_succotash.depthslate": "Depthslate",
       "item.legendary_succotash.depthslatediamondore": "Depthslate Diamond Ore",
-      "item.legendary_succotash.compressed_detrius": "Compressed Detrius"
+      "item.legendary_succotash.compressed_detrius": "Compressed Detrius",
+      "item.legendary_succotash.darkling_spawn_egg": "Darkling Spawn Egg",
+      "entity.legendary_succotash.darkling": "Darkling"
     }
   },
   "metadata": {
