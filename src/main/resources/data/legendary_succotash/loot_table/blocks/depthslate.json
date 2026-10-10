@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "legendary_succotash:blocks/depthslate",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendary_succotash:depthslate"
+        }
+      ]
+    }
+  ]
+}

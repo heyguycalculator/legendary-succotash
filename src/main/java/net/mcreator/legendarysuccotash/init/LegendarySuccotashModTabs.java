@@ -24,6 +24,9 @@ public class LegendarySuccotashModTabs {
 			tabData.accept(LegendarySuccotashModItems.DEEP_SPIDER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(LegendarySuccotashModItems.SPIDERBANNERPATTERN.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(LegendarySuccotashModBlocks.DEPTHSLATE.get().asItem());
+			tabData.accept(LegendarySuccotashModBlocks.DEPTHSLATEDIAMONDORE.get().asItem());
 		}
 	}
 }

@@ -64,16 +64,16 @@
     "equipmentBoots": "",
     "mobBehaviourType": "Mob",
     "mobCreatureType": "ARTHROPOD",
-    "attackStrength": 3,
+    "attackStrength": 6,
     "attackKnockback": 0.0,
-    "knockbackResistance": 0.0,
+    "knockbackResistance": 0.5,
     "movementSpeed": 0.5,
     "stepHeight": 0.19999999999999998,
-    "armorBaseValue": 0.0,
+    "armorBaseValue": 0.7999999999999999,
     "trackingRange": 64,
-    "followRange": 16,
-    "health": 10,
-    "xpAmount": 0,
+    "followRange": 10,
+    "health": 20,
+    "xpAmount": 6,
     "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": false
@@ -126,7 +126,8 @@
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
-      "CUSTOM:Cavesurfacedepths"
+      "CUSTOM:Cavesurfacedepths",
+      "CUSTOM:Cavedeepdepths"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

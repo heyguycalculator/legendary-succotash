@@ -1,6 +1,9 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "legendary_succotash:cavesurfacedepths",
+  "biomes": [
+    "legendary_succotash:cavesurfacedepths",
+    "legendary_succotash:cavedeepdepths"
+  ],
   "spawners": {
     "type": "legendary_succotash:deep_spider",
     "weight": 20,

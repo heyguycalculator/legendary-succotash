@@ -218,6 +218,54 @@
           "src/main/java/net/mcreator/legendarysuccotash/item/SpiderbannerpatternItem.java"
         ]
       }
+    },
+    {
+      "name": "Depthslate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depthslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legendary_succotash/models/item/depthslate.json",
+          "src/main/java/net/mcreator/legendarysuccotash/block/DepthslateBlock.java",
+          "src/main/resources/assets/legendary_succotash/models/block/depthslate.json",
+          "src/main/resources/data/legendary_succotash/loot_table/blocks/depthslate.json",
+          "src/main/resources/assets/legendary_succotash/blockstates/depthslate.json",
+          "src/main/resources/assets/legendary_succotash/items/depthslate.json"
+        ]
+      }
+    },
+    {
+      "name": "Depthslatediamondore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depthslatediamondore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legendary_succotash/models/item/depthslatediamondore.json",
+          "src/main/resources/assets/legendary_succotash/blockstates/depthslatediamondore.json",
+          "src/main/resources/data/legendary_succotash/loot_table/blocks/depthslatediamondore.json",
+          "src/main/java/net/mcreator/legendarysuccotash/block/DepthslatediamondoreBlock.java",
+          "src/main/resources/assets/legendary_succotash/items/depthslatediamondore.json",
+          "src/main/resources/assets/legendary_succotash/models/block/depthslatediamondore.json"
+        ]
+      }
+    },
+    {
+      "name": "DepthslateDiamondOreGeneration",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depthslate_diamond_ore_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legendary_succotash/worldgen/configured_feature/depthslate_diamond_ore_generation.json",
+          "src/main/resources/data/legendary_succotash/neoforge/biome_modifier/depthslate_diamond_ore_generation_biome_modifier.json",
+          "src/main/resources/data/legendary_succotash/worldgen/placed_feature/depthslate_diamond_ore_generation.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -250,12 +298,6 @@
       "~Cavedeepdepths@CUSTOM:Cavedeepdepths",
       "~Cavesurfacedepths@CUSTOM:Cavesurfacedepths"
     ],
-    "ENTITIES:minecraft:arthropod": [
-      "~DeepSpider@CUSTOM:DeepSpider"
-    ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Depthsdimension@Blocks.DEEPSLATE"
-    ],
     "BANNER_PATTERNS:minecraft:no_item_required": [
       "~Spiderbanner@CUSTOM:Spiderbanner"
     ],
@@ -264,6 +306,20 @@
     ],
     "BANNER_PATTERNS:legendary_succotash:pattern_item/spiderbannerpattern": [
       "~Spiderbannerpattern@Spiderbanner"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Depthslate@CUSTOM:Depthslate",
+      "~Depthslatediamondore@CUSTOM:Depthslatediamondore"
+    ],
+    "ENTITIES:minecraft:arthropod": [
+      "~DeepSpider@CUSTOM:DeepSpider"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Depthsdimension@CUSTOM:Depthslate",
+      "~Depthsdimension@Blocks.DEEPSLATE"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~Depthslatediamondore@CUSTOM:Depthslatediamondore"
     ]
   },
   "tab_element_order": {},
@@ -292,7 +348,9 @@
       "block.legendary_succotash.banner.spiderbanner.blue": "Blue Spiderbanner",
       "block.legendary_succotash.banner.spiderbanner.green": "Green Spiderbanner",
       "block.legendary_succotash.banner.spiderbanner.pink": "Pink Spiderbanner",
-      "item.legendary_succotash.spiderbannerpattern": "Spider Banner Pattern"
+      "item.legendary_succotash.spiderbannerpattern": "Spider Banner Pattern",
+      "item.legendary_succotash.depthslate": "Depthslate",
+      "item.legendary_succotash.depthslatediamondore": "Depthslate Diamond Ore"
     }
   },
   "metadata": {
@@ -307,7 +365,8 @@
       "src/main/java/net/mcreator/legendarysuccotash/init/LegendarySuccotashModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/legendarysuccotash/LegendarySuccotashMod.java",
-      "src/main/resources/assets/legendary_succotash/sounds.json"
+      "src/main/resources/assets/legendary_succotash/sounds.json",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {

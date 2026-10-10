@@ -8,8 +8,8 @@
     "biomesInDimensionCaves": [
       "CUSTOM:Cavedeepdepths"
     ],
-    "worldGenType": "Normal world gen",
-    "mainFillerBlock": "Blocks.DEEPSLATE",
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": "CUSTOM:Depthslate",
     "fluidBlock": "Blocks.LAVA",
     "seaLevel": -54,
     "generateOreVeins": true,
@@ -50,7 +50,7 @@
     "piglinSafe": false,
     "hasRaids": false,
     "minMonsterSpawnLightLimit": 0,
-    "maxMonsterSpawnLightLimit": 7,
+    "maxMonsterSpawnLightLimit": 15,
     "monsterSpawnBlockLightLimit": 0,
     "onPlayerEntersDimension": "DepthsdimensionPlayerEntersDimension",
     "portalFrame": "Blocks.CHAIN_COMMAND_BLOCK",

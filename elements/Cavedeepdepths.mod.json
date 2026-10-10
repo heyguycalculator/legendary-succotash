@@ -3,8 +3,8 @@
   "_type": "biome",
   "definition": {
     "name": "Cavedeepdepths",
-    "groundBlock": "Blocks.DEEPSLATE",
-    "undergroundBlock": "Blocks.DEEPSLATE",
+    "groundBlock": "CUSTOM:Depthslate",
+    "undergroundBlock": "CUSTOM:Depthslate",
     "underwaterBlock": "Blocks.GRAVEL",
     "fogColor": {
       "value": -16777216,

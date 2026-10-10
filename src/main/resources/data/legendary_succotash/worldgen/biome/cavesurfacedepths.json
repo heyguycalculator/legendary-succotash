@@ -27,7 +27,14 @@
     "minecraft:visual/water_fog_color": 329011
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "legendary_succotash:deep_spider",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "creature": [],
     "ambient": [],
     "axolotls": [],
@@ -48,7 +55,10 @@
       "minecraft:lake_lava_underground"
     ],
     [],
-    [],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
     [],
     [],
     [

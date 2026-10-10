@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "legendary_succotash:block/depthslatediamond",
+    "particle": "legendary_succotash:block/depthslatediamond"
+  }
+}
